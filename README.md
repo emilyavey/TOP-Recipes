@@ -1,3 +1,3 @@
 # odin-recipes
 
-hi i dont know what i'm doing </3
+first website using the Odin Recipes project
