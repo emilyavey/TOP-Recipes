@@ -1,0 +1,73 @@
+* {
+    background-color: #FFF9EB;
+}
+
+h1 {
+    color: #755742;
+    font-family: "Verdana", sans-serif;
+    letter-spacing: .10em;
+    font-size: 27px;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+a {
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    letter-spacing: .25em;
+    background-color: transparent;
+
+}
+
+p {
+    font-family: "Tahoma", sans-serif;
+    font-size: 13px;
+    letter-spacing: .025em;
+    background-color: transparent;
+}
+
+img {
+    width: 949px;
+    height: 413px;
+    object-fit: cover;
+    object-position: 25% 30%;
+}
+
+.details#honey_milk_details {
+    background-color: #FFF2D4;
+}
+
+#honey_milk_details *{
+    color: #E2C5A3;
+}
+
+.details#matcha_latte_details {
+    background-color: #86A96F;
+}
+
+#matcha_latte_details *{
+    color: #D6E8CA;
+}
+
+.details#honey_milk_details {
+    background-color: #FFF2D4;
+}
+
+#honey_milk_details *{
+    color: #E2C5A3;
+}
+
+.details#honey_milk_details {
+    background-color: #FFF2D4;
+}
+
+#honey_milk_details *{
+    color: #E2C5A3;
+}
+
