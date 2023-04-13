@@ -8,12 +8,22 @@ h1 {
     letter-spacing: .10em;
     font-size: 27px;
     text-align: center;
+    font-weight: 200;
+}
+
+a#back-to-home-header:link { text-decoration: none; }
+a#back-to-home-header:visited { text-decoration: none; }
+a#back-to-home-header:hover { text-decoration: none; }
+a#back-to-home-header:active { text-decoration: none; }
+
+.info_box {
+    width: 100%;
+    height: auto;
 }
 
 .details {
-    display: flex;
-    flex-direction: column;
-
+    width: 33%;
+    padding: 50px 50px 50px 50px;
 
 }
 
@@ -33,20 +43,26 @@ p {
 }
 
 img {
-    width: 949px;
-    height: 413px;
-    object-fit: cover;
-    object-position: 25% 30%;
+    width: 66%;
+    height: auto;
 }
 
+/*Honey Milk*/
 .details#honey_milk_details {
     background-color: #FFF2D4;
+    float: right;
 }
 
 #honey_milk_details *{
-    color: #E2C5A3;
+    color: #CEB495;
 }
 
+#honey_milk_banner {
+    float: left;
+}
+
+
+/*Matcha Latte*/
 .details#matcha_latte_details {
     background-color: #86A96F;
 }
@@ -55,19 +71,21 @@ img {
     color: #D6E8CA;
 }
 
-.details#honey_milk_details {
-    background-color: #FFF2D4;
+/* Wintermelon Milk */
+.details#wintermelon_milk_details {
+    background-color: #CEB495;
 }
 
-#honey_milk_details *{
-    color: #E2C5A3;
+#wintermelon_milk_details *{
+    color: #755742;
 }
 
-.details#honey_milk_details {
-    background-color: #FFF2D4;
+/* hot chocolate */
+.details#hot_chocolate_details {
+    background-color: #755742;
 }
 
-#honey_milk_details *{
-    color: #E2C5A3;
+#hot_chocolate_details *{
+    color: #CEB495;
 }
 
