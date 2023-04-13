@@ -1,6 +1,60 @@
+/*-------------------------------------------------------------------------------------------*/
+/*                                 TABLE OF CONTENT                                         */
+/*-----------------------------------------------------------------------------------------*/
+/* 
+1 - RESET CSS
+2 - GENERAL CSS STYLING (BODY, LINKS, LISTS, HEADINGS, TABLES, CODE, WRAPPER, CONTAINER)
+3 - HEADER
+4 - SECTIONS
+5 - FOOTER
+*/
+
+ /*--------------------------------------------------------------------------------------*/
+ /*                     2 - GENERAL CSS FOR STYLING                                      */
+ /*-------------------------------------------------------------------------------------*/
 * {
     background-color: #FFF9EB;
 }
+
+a {
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    letter-spacing: .25em;
+    background-color: transparent;
+}
+
+p {
+    font-family: "Tahoma", sans-serif;
+    font-size: 13px;
+    letter-spacing: .025em;
+    background-color: transparent;
+}
+
+.info_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+
+.details {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+}
+
+
+
+ /*--------------------------------------------------------------------------------------*/
+ /*                     3 - HEADER CSS STYLES                                           */
+ /*-------------------------------------------------------------------------------------*/
 
 h1 {
     color: #755742;
@@ -16,36 +70,9 @@ a#back-to-home-header:visited { text-decoration: none; }
 a#back-to-home-header:hover { text-decoration: none; }
 a#back-to-home-header:active { text-decoration: none; }
 
-.info_box {
-    width: 100%;
-    height: auto;
-}
-
-.details {
-    width: 33%;
-    padding: 50px 50px 50px 50px;
-
-}
-
-a {
-    font-family: "Verdana", sans-serif;
-    font-size: 20px;
-    letter-spacing: .25em;
-    background-color: transparent;
-
-}
-
-p {
-    font-family: "Tahoma", sans-serif;
-    font-size: 13px;
-    letter-spacing: .025em;
-    background-color: transparent;
-}
-
-img {
-    width: 66%;
-    height: auto;
-}
+ /*-----------------------------------------------------------------------------*/
+ /*                     4 - SECTIONS                                           */
+ /*-----------------------------------------------------------------------------*/
 
 /*Honey Milk*/
 .details#honey_milk_details {
@@ -65,27 +92,41 @@ img {
 /*Matcha Latte*/
 .details#matcha_latte_details {
     background-color: #86A96F;
+    float: left;
 }
 
 #matcha_latte_details *{
     color: #D6E8CA;
 }
 
+#matcha_latte_banner {
+    float: right;
+}
+
 /* Wintermelon Milk */
 .details#wintermelon_milk_details {
     background-color: #CEB495;
+    float: right;
 }
 
 #wintermelon_milk_details *{
     color: #755742;
 }
 
+#wintermelon_milk_banner {
+    float: left;
+}
+
 /* hot chocolate */
 .details#hot_chocolate_details {
     background-color: #755742;
+    float: left;
 }
 
 #hot_chocolate_details *{
     color: #CEB495;
 }
 
+#hot_chocolate_banner {
+    float: right;
+}
