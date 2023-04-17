@@ -51,6 +51,12 @@ img {
     padding: 50px;
 }
 
+.body {
+    width: 40%;
+    float: right;
+    margin: 53px;
+}
+
 
 
  /*--------------------------------------------------------------------------------------*/
@@ -83,10 +89,11 @@ h3 {
     font-family: "Verdana", sans-serif;
     font-size: 18px;
     letter-spacing: .15em;
-    background-color: yellow;
     width: 172px;
     height: 33px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -95,7 +102,7 @@ h3 {
  /*-----------------------------------------------------------------------------*/
 
 /*Honey Milk*/
-.details#honey_milk_details {
+#honey_milk_details {
     background-color: #FFF2D4;
     float: right;
 }
@@ -106,6 +113,14 @@ h3 {
 
 #honey_milk_banner {
     float: left;
+}
+
+.honey_milk_h3 {
+    background-color: #F9EFDD;
+}
+
+#honey_milk_body {
+    color: #E2C5A3;
 }
 
 
@@ -123,6 +138,7 @@ h3 {
     float: right;
 }
 
+
 /* Wintermelon Milk */
 .details#wintermelon_milk_details {
     background-color: #CEB495;
@@ -136,6 +152,7 @@ h3 {
 #wintermelon_milk_banner {
     float: left;
 }
+
 
 /* hot chocolate */
 .details#hot_chocolate_details {
