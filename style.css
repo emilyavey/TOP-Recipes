@@ -57,6 +57,14 @@ img {
     margin: 53px;
 }
 
+.closure {
+    width: 360px;
+    height: 44px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 24px;
+}
 
 
  /*--------------------------------------------------------------------------------------*/
@@ -83,12 +91,14 @@ h2 {
     font-family: "Verdana", sans-serif;
     font-size: 22px;
     letter-spacing: .20em;
+    font-weight: 100;
 }
 
 h3 {
     font-family: "Verdana", sans-serif;
     font-size: 18px;
     letter-spacing: .15em;
+    font-weight: 100;
     width: 172px;
     height: 33px;
     display: flex;
@@ -121,6 +131,10 @@ h3 {
 
 #honey_milk_body {
     color: #E2C5A3;
+}
+
+#honey_milk_closure {
+    background-color: #FFF2D4;
 }
 
 
