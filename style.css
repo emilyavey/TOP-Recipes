@@ -40,15 +40,17 @@ p, ul, li {
 img {
     margin: 0 auto;
     width: 60%;
-    height: auto;
 }
 
 .details {
-    margin: 0 auto;
+    flex: 1; /* makes the details element grow to fill the available space */
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 100%;
-    width: 100%;
-    padding: 50px;
+    order: 2
 }
 
 .body {
@@ -78,7 +80,8 @@ h1 {
     letter-spacing: .10em;
     font-size: 27px;
     text-align: center;
-    font-weight: 200;
+    font-weight: 500;
+
 
 }
 
@@ -114,34 +117,22 @@ h3 {
 /*Honey Milk*/
 #honey_milk_details {
     background-color: #FFF2D4;
-    float: right;
+    
 }
 
 #honey_milk_details *{
     color: #CEB495;
+    order: 2;
 }
 
 #honey_milk_banner {
-    float: left;
-}
-
-.honey_milk_h3 {
-    background-color: #F9EFDD;
-}
-
-#honey_milk_body {
-    color: #E2C5A3;
-}
-
-#honey_milk_closure {
-    background-color: #FFF2D4;
+    order: 1;
 }
 
 
 /*Matcha Latte*/
 .details#matcha_latte_details {
     background-color: #86A96F;
-    float: left;
 }
 
 #matcha_latte_details *{
@@ -150,6 +141,7 @@ h3 {
 
 #matcha_latte_banner {
     float: right;
+    order: 2;
 }
 
 
@@ -164,14 +156,13 @@ h3 {
 }
 
 #wintermelon_milk_banner {
-    float: left;
+    order: 1; 
 }
 
 
 /* hot chocolate */
 .details#hot_chocolate_details {
     background-color: #755742;
-    float: left;
 }
 
 #hot_chocolate_details *{
@@ -179,11 +170,29 @@ h3 {
 }
 
 #hot_chocolate_banner {
-    float: right;
+    order: 2;
 }
 
  /*--------------------------------------------------------------------------*/
- /*                     5 - FOOTER                                           */
+ /*                     5 - RECIPE PAGES                                     */
+ /*--------------------------------------------------------------------------*/
+
+/* Honey Milk */
+.honey_milk_h3 {
+    background-color: #F9EFDD;
+}
+
+#honey_milk_body {
+    color: #E2C5A3;
+}
+
+#honey_milk_closure {
+    background-color: #FFF2D4;
+}
+
+
+ /*--------------------------------------------------------------------------*/
+ /*                     6 - FOOTER                                           */
  /*--------------------------------------------------------------------------*/
 
  #back-to-top {
@@ -200,3 +209,6 @@ h3 {
     
     padding: 20px 20px;
  }
+
+
+ 
