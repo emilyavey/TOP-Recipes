@@ -173,9 +173,38 @@ h3 {
     order: 2;
 }
 
- /*--------------------------------------------------------------------------*/
- /*                     5 - RECIPE PAGES                                     */
- /*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*                     5 - RECIPE PAGES                                     */
+/*--------------------------------------------------------------------------*/
+
+.main_content {
+    display: flex;
+}
+
+.main_body {
+    width: 37%;
+    margin-left: 53px;
+    margin-right: 64px;
+
+}
+
+.carousel {
+    aspect-ratio: 1 / 1;
+    margin-left: 5%;
+    overflow: auto;
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    padding: 88px 73px 88px 73px;
+}
+
+.carousel_pictures {
+    display: flex;
+}
+
+.pictures {
+    width: 536px;
+}
 
 /* Honey Milk */
 .honey_milk_h3 {
