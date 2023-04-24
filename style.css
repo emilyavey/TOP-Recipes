@@ -81,8 +81,6 @@ h1 {
     font-size: 27px;
     text-align: center;
     font-weight: 500;
-
-
 }
 
 a#back-to-home-header:link { text-decoration: none; }
@@ -95,6 +93,7 @@ h2 {
     font-size: 22px;
     letter-spacing: .20em;
     font-weight: 100;
+    background-color: transparent;
 }
 
 h3 {
@@ -179,12 +178,18 @@ h3 {
 
 .main_content {
     display: flex;
+    background-color: yellow;
+}
+
+ol {
+    background-color: transparent;
 }
 
 .main_body {
     width: 37%;
     margin-left: 53px;
     margin-right: 64px;
+    background-color: transparent;
 
 }
 
@@ -207,17 +212,20 @@ h3 {
 }
 
 /* Honey Milk */
-.honey_milk_h3 {
-    background-color: #F9EFDD;
-}
-
 #honey_milk_body {
     color: #E2C5A3;
+}
+
+.honey_milk_h3 {
+    background-color: #F9EFDD;
 }
 
 #honey_milk_closure {
     background-color: #FFF2D4;
 }
+
+/* Wintermelon Milk*/
+/* wondering if i should just have h4 cover for it since there's only one h4*/
 
 
  /*--------------------------------------------------------------------------*/
