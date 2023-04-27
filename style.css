@@ -146,10 +146,6 @@ h4 {
 
 
 /*Matcha Latte*/
-#matcha_carousel {
-    background-color: #86A96F;
-}
-
 .details#matcha_latte_details {
     background-color: #86A96F;
 }
@@ -259,6 +255,10 @@ ol {
 }
 
 /* Matcha Latte */
+#matcha_carousel {
+    background-color: #86A96F;
+}
+
 #matcha_main_content {
     background-color: #D6E8CA;
     color: #86A96F;
@@ -291,6 +291,25 @@ ol {
     color: #F9EFDD;
 }
 
+/* Hot Chocolate */
+#hot_chocolate_carousel {
+    background-color: #755742;
+}
+
+#hot_chocolate_main_content, 
+#hot_chocolate_body {
+    color: #755742;
+    background-color: #C4AFA1;
+}
+
+.hot_chocolate_h3 {
+    background-color: #B49D8E;
+}
+
+#hot_chocolate_closure {
+    background-color: #755742;
+    color: #C4AFA1;
+}
  /*--------------------------------------------------------------------------*/
  /*                     6 - FOOTER                                           */
  /*--------------------------------------------------------------------------*/
