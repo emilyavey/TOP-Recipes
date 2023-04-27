@@ -1,3 +1,19 @@
+/* TODO: 
+Make a carousel
+Carousel for all 4
+color correcting
+proper layout
+update h4? for wintermelon
+resize images (matcha, wm, hc)
+replace said images
+investigate flex wrap as a possible option to mobile friendly homepage
+possibly enlarge all fonts, bolding ingredients and title*/
+
+/* Additional update note to myself
+Honey milk & matcha are done asides from the carousel p much */
+
+
+
 /*-------------------------------------------------------------------------------------------*/
 /*                                 TABLE OF CONTENT                                         */
 /*-----------------------------------------------------------------------------------------*/
@@ -124,6 +140,10 @@ h4 {
 
 
 /*Matcha Latte*/
+#matcha_carousel {
+    background-color: #86A96F;
+}
+
 .details#matcha_latte_details {
     background-color: #86A96F;
 }
@@ -216,6 +236,10 @@ ol {
 }
 
 /* Honey Milk */
+#honey_milk_carousel {
+    background-color: #FFF2D4;
+}
+
 #honey_milk_body {
     color: #E2C5A3;
 }
