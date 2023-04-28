@@ -193,31 +193,28 @@ h4 {
 /*--------------------------------------------------------------------------*/
 
 .main_content {
-    width: 100%;
+    width: 90%;
     display: flex;
+    flex: wrap;
     padding-bottom: 184px;    
     padding-left: 5%;
     padding-right: 5%;
 }
 
+@media (max-width: 600px) {
+    .main_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel {
+        background-color: red;
+        margin: 0;
+    }
+}
+
 ol {
     background-color: transparent;
-}
-
-.main_body {
-    width: 37%;
-    margin-left: 8%;
-    background-color: transparent;
-
-}
-
-.closure {
-    width: 100%;
-    height: 44px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding-left: 24px;
 }
 
 .carousel {
@@ -227,7 +224,28 @@ ol {
     height: 40%;
     background-color: red;
     padding: 88px 73px 88px 73px;
+    order: -1;
 }
+
+
+.main_body {
+    width: auto;
+    margin-left: 8%;
+    background-color: transparent;
+    flex: 1;
+}
+
+.closure {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 24px;
+
+}
+
+
 
 .carousel_pictures {
     display: flex;
