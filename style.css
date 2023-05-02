@@ -3,9 +3,6 @@ Make a carousel
 Carousel for all 4
 color correcting
 proper layout
-update h4? for wintermelon
-resize images (matcha, wm, hc)
-replace said images
 investigate flex wrap as a possible option to mobile friendly homepage
 possibly enlarge all fonts, bolding ingredients and title*/
 
@@ -192,6 +189,97 @@ h4 {
 /*                     5 - RECIPE PAGES                                     */
 /*--------------------------------------------------------------------------*/
 
+/*Carousel*/
+.container {
+    aspect-ratio: 1 / 1; 
+    background-color: red;
+    width: 40%;
+    /*TODO: HOW TO FIX HEIGHT?*/
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: -1;
+}
+
+.slider {
+    width: 80%; /*try fitting the width to the width of the image*/
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden; /*hides content that doesn't get included in the width*/
+    position: relative;
+}
+
+.slides{
+    width: 500%;
+    display: flex;
+}
+
+.slides input{
+    display: none; /*hides the radio buttons*/
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    display: flex; 
+    justify-content: center;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.manual-btn{
+    border: 5px solid white; /*determines wht the border of the radio button looks like*/
+    padding: 3%; /*how big the button is*/
+    border-radius: 20px; /*not sure what this does, in the video the button gets rounder*/
+    cursor: pointer; /*makes it so that when u hover over the buttons, the hand appears*/
+    transition: 1s;
+    background-color: transparent;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20%; /*want to do this to everyone except the last child so that the buttons aren't off center*/
+}
+
+.manual-btn:hover{
+    background: white; /*on hover, button's fill becomes white*/
+}
+
+#radio1:checked ~ .navigation #manual1{
+    background: white;
+}
+#radio2:checked ~ .navigation #manual2{
+    background: white;
+}
+#radio3:checked ~ .navigation #manual3{
+    background: white;
+}
+
+/*clicked each button moves the picture on screen using margin*/
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%; /*don't want to change the 20% and 40% no matter the dimensions*/
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+/*Carousel end*/
+
 .main_content {
     width: 90%;
     display: flex;
@@ -207,24 +295,15 @@ h4 {
         align-items: center;
     }
 
-    .carousel {
-        background-color: red;
-        margin: 0;
+    .container {
+        width: 100%;
+        height: 30%; /*TODO: HEIGHT DOES NOTHING HERE??*/
     }
+
 }
 
 ol {
     background-color: transparent;
-}
-
-.carousel {
-    aspect-ratio: 1 / 1;
-    overflow: auto;
-    width: 30%;
-    height: 40%;
-    background-color: red;
-    padding: 88px 73px 88px 73px;
-    order: -1;
 }
 
 
@@ -245,15 +324,6 @@ ol {
 
 }
 
-
-
-.carousel_pictures {
-    display: flex;
-}
-
-.pictures {
-    width: 536px;
-}
 
 /* Honey Milk */
 #honey_milk_carousel {

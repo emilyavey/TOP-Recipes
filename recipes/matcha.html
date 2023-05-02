@@ -13,11 +13,36 @@
     </a>
 
     <div class="main_content" id="matcha_main_content">
-        <div class="carousel" id="matcha_carousel">
-            <div class="carousel_pictures">
-                <img class="picture" src = "../photos/matcha_1.png" alt = "picture 1 of matcha latte">
-                <img class="picture" src = "../photos/matcha_2.png" alt = "picture 2 of matcha latte">
-                <img class="picture" src = "../photos/matcha_3.png" alt = "picture 3 of matcha latte">
+        <div class="container" id="matcha_carousel">
+            <div class="slider">
+                <div class="slides">
+                    <!--radio button start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!--radio button end-->
+    
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="../photos/matcha_1.png">
+                    </div>
+                    <div class="slide">
+                        <img src="../photos/matcha_2.png">
+                    </div>
+                    <div class="slide">
+                        <img src="../photos/matcha_3.png">
+                    </div>
+                    <!--slide images end-->
+                
+                    <!--manual navigation start-->
+                    <div class="navigation">
+                        <label for="radio1" class="manual-btn" id="manual1"></label>
+                        <label for="radio2" class="manual-btn" id="manual2"></label>
+                        <label for="radio3" class="manual-btn" id="manual3"></label>
+                    </div>
+                    <!--manual navigation end-->
+    
+                </div>
             </div>
         </div>
 
