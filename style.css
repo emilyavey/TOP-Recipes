@@ -40,7 +40,7 @@ a {
 
 p, ul, li {
     font-family: "Assistant", "Tahoma", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: .025em;
     background-color: transparent;
 }
@@ -94,7 +94,7 @@ a#back-to-home-header:active { text-decoration: none; }
 
 h2 {
     font-family: "Atkinson Hyperlegible", "Verdana", sans-serif;
-    font-size: 22px;
+    font-size: 23px;
     letter-spacing: .20em;
     font-weight: lighter;
     background-color: transparent;
@@ -102,7 +102,7 @@ h2 {
 
 h3 {
     font-family: "Atkinson Hyperlegible", "Verdana", sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: .15em;
     font-weight: lighter;
     width: 172px;
@@ -116,7 +116,7 @@ h3 {
 h4 {
     color: #CEB495;
     font-family: "Atkinson Hyperlegible", "Verdana", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: .025em;
     font-weight: bold;
     
@@ -193,9 +193,9 @@ h4 {
 .container {
     aspect-ratio: 1 / 1; 
     background-color: red;
-    width: 40%;
+    width: 50%;
     /*TODO: HOW TO FIX HEIGHT?*/
-    height: 40%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,9 +240,9 @@ h4 {
 }
 
 .manual-btn{
-    border: 5px solid white; /*determines wht the border of the radio button looks like*/
-    padding: 3%; /*how big the button is*/
-    border-radius: 20px; /*not sure what this does, in the video the button gets rounder*/
+    border: .2em solid white; /*determines wht the border of the radio button looks like*/
+    padding: 2%; /*how big the button is*/
+    border-radius: 100%; /*not sure what this does, in the video the button gets rounder*/
     cursor: pointer; /*makes it so that when u hover over the buttons, the hand appears*/
     transition: 1s;
     background-color: transparent;

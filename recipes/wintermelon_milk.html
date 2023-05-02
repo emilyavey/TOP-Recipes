@@ -13,11 +13,36 @@
     </a>
 
     <div class="main_content" id="wintermelon_milk_main_content">
-        <div class="carousel" id="wintermelon_milk_carousel">
-            <div class="carousel_pictures">
-                <img src = "../photos/wintermelon_milk_1.png" alt = "picture 1 of wintermelon milk drink">
-                <img src = "../photos/wintermelon_milk_2.png" alt = "picture 2 of wintermelon milk drink">
-                <img src = "../photos/wintermelon_milk_3.png" alt = "picture 3 of wintermelon milk drink">
+
+        <div class="container" id="wintermelon_milk_carousel">
+            <div class="slider">
+                <div class="slides">
+                    <!--radio button start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!--radio button end-->
+    
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="../photos/wintermelon_milk_1.png">
+                    </div>
+                    <div class="slide">
+                        <img src="../photos/wintermelon_milk_2.png">
+                    </div>
+                    <div class="slide">
+                        <img src="../photos/wintermelon_milk_3.png">
+                    </div>
+                    <!--slide images end-->
+                
+                    <!--manual navigation start-->
+                    <div class="navigation">
+                        <label for="radio1" class="manual-btn" id="manual1"></label>
+                        <label for="radio2" class="manual-btn" id="manual2"></label>
+                        <label for="radio3" class="manual-btn" id="manual3"></label>
+                    </div>
+                    <!--manual navigation end-->
+                </div>
             </div>
         </div>
 
