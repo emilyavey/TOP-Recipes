@@ -1,16 +1,3 @@
-/* TODO: 
-Make a carousel
-Carousel for all 4
-color correcting
-proper layout
-investigate flex wrap as a possible option to mobile friendly homepage
-possibly enlarge all fonts, bolding ingredients and title*/
-
-/* Additional update note to myself
-Honey milk & matcha are done asides from the carousel p much */
-
-
-
 /*-------------------------------------------------------------------------------------------*/
 /*                                 TABLE OF CONTENT                                         */
 /*-----------------------------------------------------------------------------------------*/
@@ -194,7 +181,6 @@ h4 {
     aspect-ratio: 1 / 1; 
     background-color: red;
     width: 50%;
-    /*TODO: HOW TO FIX HEIGHT?*/
     height: 50%;
     display: flex;
     justify-content: center;
@@ -297,7 +283,7 @@ h4 {
 
     .container {
         width: 100%;
-        height: 30%; /*TODO: HEIGHT DOES NOTHING HERE??*/
+        height: 30%; 
     }
 
 }
