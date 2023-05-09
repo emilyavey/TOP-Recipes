@@ -64,6 +64,14 @@ img {
  /*                     3 - HEADER CSS STYLES                                           */
  /*-------------------------------------------------------------------------------------*/
 
+.menu_bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFF9EB; /* Optional */
+    z-index: 999; /* Optional */
+}
+
 h1 {
     margin: 30px auto;
     color: #755742;
@@ -131,6 +139,9 @@ h4 {
 
 }
 
+#first_info_box {
+    margin-top: 10%;
+}
 
 /*Honey Milk*/
 #honey_milk_details {
@@ -194,6 +205,8 @@ h4 {
 /*--------------------------------------------------------------------------*/
 /*                     5 - RECIPE PAGES                                     */
 /*--------------------------------------------------------------------------*/
+
+
 
 /*Carousel*/
 .container {
@@ -292,6 +305,7 @@ h4 {
     padding-bottom: 184px;    
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: 10%;
 }
 
 @media (max-width: 600px) {
