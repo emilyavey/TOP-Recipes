@@ -29,6 +29,7 @@ p, ul, li {
     font-family: "Assistant", "Tahoma", sans-serif;
     font-size: 16px;
     letter-spacing: .025em;
+    line-height: 23px;
     background-color: transparent;
 }
 
@@ -65,11 +66,13 @@ img {
  /*-------------------------------------------------------------------------------------*/
 
 .menu_bar {
+    display: flex;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #FFF9EB; /* Optional */
     z-index: 999; /* Optional */
+
 }
 
 h1 {
@@ -82,6 +85,8 @@ h1 {
     font-weight: 500;
 }
 
+
+/* TODO: how to make it so that all links under menu bar have the following styles? */
 a#back-to-home-header:link { text-decoration: none; }
 a#back-to-home-header:visited { text-decoration: none; }
 a#back-to-home-header:hover { text-decoration: none; }
@@ -89,7 +94,7 @@ a#back-to-home-header:active { text-decoration: none; }
 
 h2 {
     font-family: "Atkinson Hyperlegible", "Verdana", sans-serif;
-    font-size: 23px;
+    font-size: 28px;
     letter-spacing: .20em;
     font-weight: lighter;
     background-color: transparent;
@@ -97,7 +102,7 @@ h2 {
 
 h3 {
     font-family: "Atkinson Hyperlegible", "Verdana", sans-serif;
-    font-size: 19px;
+    font-size: 21px;
     letter-spacing: .15em;
     font-weight: lighter;
     width: 172px;
@@ -140,7 +145,7 @@ h4 {
 }
 
 #first_info_box {
-    margin-top: 10%;
+    margin-top: 99px;
 }
 
 /*Honey Milk*/
@@ -150,7 +155,7 @@ h4 {
 }
 
 #honey_milk_details *{
-    color: #CEB495;
+    color: #c39967;
     order: 2;
 }
 
@@ -207,6 +212,12 @@ h4 {
 /*--------------------------------------------------------------------------*/
 
 
+/* TODO: Make image not stretch/squish */
+.top_banner {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 0;
+}
 
 /*Carousel*/
 .container {
@@ -305,7 +316,8 @@ h4 {
     padding-bottom: 184px;    
     padding-left: 5%;
     padding-right: 5%;
-    margin-top: 10%;
+    padding-top: 50px;
+    margin-top: -10px;
 }
 
 @media (max-width: 600px) {
@@ -350,7 +362,7 @@ ol {
 }
 
 #honey_milk_body {
-    color: #E2C5A3;
+    color: #c39967;
 }
 
 .honey_milk_h3 {
